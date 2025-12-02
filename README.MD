@@ -77,11 +77,9 @@ Replace in-memory structures with Redis, PostgreSQL/TimescaleDB, or Kafka to sup
 
 ### 3. Performance and scalability improvements
 Introduce optimizations such as:
-- Lock-free data structures
-- Sharded storage per symbol
-- Dedicated ingestion threads
-- Backpressure-aware pipelines (e.g., Reactor, Kafka Streams)
-- Batching and zero-copy structures  
-  These enhancements would allow higher event throughput and multi-node scaling.
+- Lock-free data structures.
+- Shared storage per symbol.
+- Dedicated ingestion threads.
+- Backpressure-aware pipelines (e.g., Reactor, Kafka Streams).
 
 ---
